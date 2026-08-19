@@ -105,6 +105,22 @@ export const education = [
     resultType: "percentage",
   },
 ];
+export const experience = [
+    {
+    role: "Web & Python Development Intern",
+    company: "Skillify",
+    location: "Remote",
+    period: "Aug 2026 – Present",
+    bullets: [
+      "Developed responsive web pages and interactive UI components using HTML, CSS, JavaScript, and React.js.",
+      "Built Python desktop applications with Tkinter, implementing input validation and error handling.",
+      "Integrated RESTful APIs and database connectivity for dynamic, data-driven applications.",
+      "Collaborated on real-world projects following clean code practices and version control with Git.",
+    ],
+    tech: ["HTML", "CSS", "JavaScript", "React.js", "Python", "Tkinter", "REST APIs", "Git"],
+    accent: "cyan",
+  },  
+];
 
 export const projects = [
   {
@@ -232,6 +248,7 @@ export const navLinks = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#education", label: "Education" },
+  { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
   { href: "#contact", label: "Contact" },
 ];
