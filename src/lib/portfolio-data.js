@@ -25,7 +25,7 @@ export const personal = {
 };
 
 export const stats = [
-  { label: "CGPA", value: "3.79", suffix: "/4.00", icon: "graduation" },
+  { label: "CGPA", value: "3.73", suffix: "/4.00", icon: "graduation" },
   { label: "Academic Projects", value: "4", suffix: "+", icon: "code" },
   { label: "Certifications", value: "2", suffix: "", icon: "badge" },
   { label: "Matric Score", value: "93.6", suffix: "%", icon: "star" },
@@ -38,47 +38,68 @@ export const skillCategories = [
     accent: "rose",
     skills: ["Python", "JavaScript", "C++", "SQL"],
   },
+
   {
-    title: "Web Development",
+    title: "Frontend",
     icon: "globe",
     accent: "cyan",
-    skills: [
-      "HTML5",
-      "CSS3",
-      "Bootstrap",
-      "React.js",
-      "Node.js",
-      "FastAPI",
-      "RESTful APIs",
-      "JWT Authentication",
-    ],
+    skills: ["React.js", "HTML5", "CSS3", "Bootstrap"],
   },
+
   {
-    title: "Artificial Intelligence",
+    title: "Backend",
+    icon: "server",
+    accent: "blue",
+    skills: ["FastAPI", "Node.js", "RESTful APIs", "JWT Authentication"],
+  },
+
+  {
+    title: "Generative AI",
     icon: "sparkles",
     accent: "violet",
     skills: [
-      "Large Language Models (LLMs)",
+      "LLMs",
       "LangChain",
-      "Retrieval-Augmented Generation (RAG)",
+      "Gen AI",
+      "RAG",
       "Agentic AI",
       "Prompt Engineering",
-      "AI Chatbots",
       "Gemini API",
-      "AI Application Development",
     ],
   },
+
   {
     title: "Databases",
     icon: "database",
     accent: "emerald",
-    skills: ["PostgreSQL", "MongoDB", "SQLite", "Firebase"],
+    skills: [
+      "MySQL",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite",
+      "Firebase",
+    ],
   },
+
   {
     title: "Developer Tools",
     icon: "wrench",
     accent: "amber",
-    skills: ["Git", "GitHub", "VS Code", "Android Studio"],
+    skills: ["Git", "GitHub", "VS Code", "Android Studio", "Postman"],
+  },
+
+  {
+    title: "Core Areas",
+    icon: "layers",
+    accent: "indigo",
+    skills: [
+      "Full-Stack Development",
+      "AI Application Development",
+      "Backend Engineering",
+      "API Development",
+      "Database Management",
+    ],
   },
 ];
 
@@ -87,7 +108,7 @@ export const education = [
     qualification: "BS Computer Science (BSCS)",
     status: "In Progress",
     institution: "Minhaj University Lahore",
-    result: "CGPA: 3.79 / 4.00",
+    result: "CGPA: 3.73 / 4.00",
     resultType: "cgpa",
   },
   {
@@ -124,7 +145,7 @@ export const experience = [
 
 export const projects = [
   {
-    name: "AI Travel Planner",
+    name: "AI Powered Travel Agent",
     tagline: "Full-stack AI-powered travel planning platform",
     description: [
       "Developed a full-stack AI-powered travel planning platform.",
@@ -133,16 +154,17 @@ export const projects = [
       "Designed secure user authentication and authorization using JWT.",
       "Developed RESTful APIs with FastAPI for frontend-backend communication.",
       "Built a responsive React.js frontend with modern UI components.",
-      "Managed trip planning data using PostgreSQL.",
+      "Managed trip planning data using MySQL.",
     ],
     tech: [
+      "Python"  
       "FastAPI",
       "React.js",
-      "PostgreSQL",
-      "LangChain",
-      "RAG",
+      "MySQL",
+      "SQLAlchemy",
+      "JWT",
       "Gemini API",
-      "JWT Auth",
+      "REST APIs",
     ],
     icon: "plane",
     accent: "rose",
@@ -207,6 +229,43 @@ export const certifications = [
     verifyUrl: "https://drive.google.com/file/d/1o2Nu1ZxScC13O-wOJJYUDMGoM7a_JSLP/view?usp=drive_link",
     accent: "cyan",
   },
+  {
+    title: "Foundations of Prompt Engineering ",
+    issuer: "AWS Training and Certifications",
+    date: "August 2026",
+  },
+  {
+    title: "Streamline deep learning environments with Amazon Q Developer and MCP ",
+    issuer: "AWS Training and Certifications",
+    date: "August 2026",
+  },
+  {
+    title: "Introduction to Generative AI ",
+    issuer: "Google Cloud Skill Boost",
+    date: "2026",
+  },
+  {
+    title: "Introduction to Large Language Model ",
+    issuer: "Google Cloud Skill Boost",
+    date: "2026",
+  },
+  {
+    title: "Connecting to a MongoDB Database Using the MongoDB Shell  ",
+    issuer: "MongoDB University",
+    date: "2026",
+  },
+  {
+    title: "•	MongoDB Basics ",
+    issuer: "MongoDB University",
+    date: "2026",
+  },
+  {
+    title: "Postman API Fundamentals Student Expert",
+    issuer: "Postman Academy",
+    date: "2025",
+  },
+
+
 ];
 
 export const achievements = [
