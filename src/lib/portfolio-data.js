@@ -157,7 +157,7 @@ export const projects = [
       "Managed trip planning data using MySQL.",
     ],
     tech: [
-      "Python"  
+      "Python",
       "FastAPI",
       "React.js",
       "MySQL",
