@@ -7,6 +7,8 @@ import {
   Sparkles,
   Database,
   Wrench,
+  Server,
+  Layers,
 } from "lucide-react";
 import { skillCategories } from "@/lib/portfolio-data";
 
@@ -16,6 +18,8 @@ const iconMap = {
   sparkles: Sparkles,
   database: Database,
   wrench: Wrench,
+  server: Server,
+  layers: Layers,
 };
 
 export default function Skills() {
