@@ -196,7 +196,7 @@ Personal portfolio for Sadia Tayyab. The code is provided as-is for personal use
 - 📧 sadiaishereoky@gmail.com
 - 💼 [LinkedIn](https://linkedin.com/in/sadia-tayyab-a2a9a7292)
 - 🐙 [GitHub](https://github.com/sadiatayyab)
-- 📞 +92 321 5700742
+
 
 ---
 
