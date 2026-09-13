@@ -15,8 +15,8 @@ export const personal = {
   tagline:
     "Computer Science undergraduate building scalable web apps & AI-powered solutions with FastAPI, React, Python and modern LLM tooling.",
   location: "Lahore, Pakistan",
-  phone: "+92 321 5700742",
-  phoneHref: "+923215700742",
+  phone: "+92 000 0000000",
+  phoneHref: "+920000000000",
   email: "sadiaishereoky@gmail.com",
   linkedin: "https://linkedin.com/in/sadia-tayyab-a2a9a7292",
   github: "https://github.com/sadiatayyab",
